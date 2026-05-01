@@ -64,6 +64,26 @@ O servidor estará disponível em: http://localhost:3000
 
 ---
 
+## 🧪 Endpoints da API
+
+Os principais endpoints disponíveis são:
+
+- `GET /users` - listar todos os usuários
+- `GET /users/:id` - buscar um usuário específico
+- `POST /users` - criar um usuário
+- `PUT /users/:id` - atualizar um usuário
+- `DELETE /users/:id` - excluir um usuário
+
+- `GET /addresses` - listar todos os endereços
+- `GET /addresses/:id` - buscar um endereço específico
+- `POST /addresses` - criar um novo endereço
+- `PUT /addresses/:id` - atualizar um endereço existente
+- `DELETE /addresses/:id` - remover um endereço
+
+> Ajuste a porta para `NODE_WEB_PORT` no arquivo `.env` se quiser acessar o servidor em outra porta.
+
+---
+
 ## 🐳 Docker
 
 Após configurar o `.env`, basta subir os containers:
